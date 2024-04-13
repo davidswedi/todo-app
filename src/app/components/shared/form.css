@@ -1,0 +1,35 @@
+.form-container{
+ width: max-content;
+ border-radius: 8px;
+ padding: 2rem;
+ border: 1px grey solid;
+ padding-top: 1rem;
+ margin: 2rem auto;
+}
+.sub-title,title{
+    margin:0.2rem 0;
+    font-weight: normal;
+}
+.btn-all{
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+.active-btn{
+        background: #252525;
+        color: white;
+        transition: transform 250ms;
+
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+        }
+}
+input{
+    width:calc(100%-2rem);
+    padding: 0.5rem 1rem;
+    font-size:1.2rem;
+    margin-bottom: 1rem;
+}
